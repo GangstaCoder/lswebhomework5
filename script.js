@@ -16,39 +16,39 @@ console.log(14%3);
 //8. Print the remainder of 829 / 13 to the console
 console.log(829%13);
 //9. Create a for loop that counts from 0 to 130 by 3s
-//for (i=0; i <= 130; i+=3) {
-//   document.write(i + "<br>");
-//};
+for (i=0; i <= 130; i+=3) {
+   document.write(i + "<br>");
+};
 //10. Create a for loop that counts from 3 to 17 by 2s
-//for (i = 3; i <=17; i+=2){
-//    document.write(i + "<br>");
-//};
+for (i = 3; i <=17; i+=2){
+    document.write(i + "<br>");
+};
 //11. Create a for loop that counts from 100 to 3 by -1
-//for (i = 100; i >=3; i--){
-//    document.write(i + "<br>");
-//};
+for (i = 100; i >=3; i--){
+    document.write(i + "<br>");
+};
 //12. Create a for loop that counts from 1 to 100 by 1s
-//for (i=1; i <= 100; i++){
-//    document.write(i + "<br>");
-//};
+for (i=1; i <= 100; i++){
+    document.write(i + "<br>");
+};
 //13. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizz` if the number is divisible by 5
-//for (i = 1; i <= 100; i++){
-//   if ((i % 5) == 0) {
-//        document.write("fizz" + "<br>")
-//    }
-//    else {
-//        document.write(i + "<br>")
-//    }
-//};
+for (i = 1; i <= 100; i++){
+   if ((i % 5) == 0) {
+        document.write("fizz" + "<br>")
+    }
+    else {
+        document.write(i + "<br>")
+    }
+};
 //14. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `buzz` if the number is divisible by 3
-//for (i = 1; i <= 100; i++) {
-//    if ((i%3) == 0) {
-//        document.write("buzz" +"<br>")
-//    }
-//    else { 
-//        document.write(i + "<br>")
-//    }
-//};
+for (i = 1; i <= 100; i++) {
+    if ((i%3) == 0) {
+        document.write("buzz" +"<br>")
+    }
+    else { 
+        document.write(i + "<br>")
+    }
+};
 //15. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizzbuzz` if the number is divisible by 15
 for (i=1;i<=100;i++){
     if ((i%15)==0) {
